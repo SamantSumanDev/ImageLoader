@@ -3,6 +3,12 @@
 
 This Android application efficiently loads and displays images in a scrollable grid without using any third-party image loading library. It implements lazy loading of images, caching mechanisms for both memory and disk, graceful error handling for network and image loading failures, and ensures smooth scrolling performance.
 
+
+## Sample
+
+![App Sample Image](screenshot_sample.jpg)
+
+
 ## Features
 
 - Displays images in a 3-column square grid.
