@@ -1,0 +1,70 @@
+[versions]
+agp = "8.3.2"
+kotlin = "1.9.0"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+androidx-navigation-fragment-ktx = "2.7.7"
+androidx-navigation-ui-ktx = "2.7.7"
+
+room_version = "2.6.1"
+retrofit_version = "2.9.0"
+coroutines_version = "1.7.3"
+lifecycle_version = "2.7.0"
+hilt_version = "1.0.0-alpha03"
+dagger_hilt_version = "2.50"
+rxjava_version = "3.0.0"
+cardview_version = "1.0.0"
+kotlinx-coroutines-android = "1.8.0"
+swiperefreshlayout_version = "1.1.0"
+coordinatorlayout_version = "1.2.0"
+okhttp_logging_interceptor_version = "5.0.0-alpha.3"
+
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines-android" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx-navigation-fragment-ktx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidx-navigation-ui-ktx" }
+
+room_runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room_version" }
+room_compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room_version" }
+room_ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room_version" }
+room_rxjava2 = { group = "androidx.room", name = "room-rxjava2", version.ref = "room_version" }
+room_guava = { group = "androidx.room", name = "room-guava", version.ref = "room_version" }
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit_version" }
+retrofit_converter_gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit_version" }
+okhttp_logging_interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp_logging_interceptor_version" }
+
+coroutines_core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines_version" }
+coroutines_android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines_version" }
+
+lifecycle_viewmodel_ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle_version" }
+lifecycle_livedata_ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle_version" }
+hilt_lifecycle_viewmodel = { group = "androidx.hilt", name = "hilt-lifecycle-viewmodel", version.ref = "hilt_version" }
+dagger_hilt_compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "dagger_hilt_version" }
+
+coordinatorlayout = { group = "androidx.coordinatorlayout", name = "coordinatorlayout", version.ref = "coordinatorlayout_version" }
+rxandroid = { group = "io.reactivex.rxjava3", name = "rxandroid", version.ref = "rxjava_version" }
+
+cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview_version" }
+swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayout_version" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
