@@ -6,7 +6,7 @@ This Android application efficiently loads and displays images in a scrollable g
 
 ## Sample
 
-<img src="screenshot_sample.jpg" alt="App Sample Image" width="450" height="700">
+<img src="screenshot_sample.jpg" alt="App Sample Image" width="450" height="640">
 
 
 
